@@ -1,24 +1,24 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #434455;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: #2e2e48;
-    color: white;
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-two {
+    color:#2e2f42;
 }
 
 .header nav {
@@ -40,111 +40,132 @@
     gap: 20px;
 }
 
-.header nav ul li a {
-    color: white;
-    text-decoration: none;
+.studio {
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.header address ul {
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    font-size: 14px;
+.studio:hover, .studio:focus {
+    color: #404bbf;
 }
 
-.header address ul li a {
-    color: white;
-    text-decoration: none;
+.address {
+    font-style: normal;
 }
 
-.main section {
-    padding: 60px 40px;
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts:hover, .contacts:focus {
+    color: #404bbf;
+}
+
+.solution {
+    background-color: #2e2f42;
+}
+
+.solution-head {
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-.main h1 {
-    font-size: 40px;
-    margin-bottom: 30px;
-    color: #fff;
-}
-
-.main button {
-    background-color: #4d63ff;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
+.solution-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-.section h2 {
-    font-size: 32px;
-    color: #2e2e48;
-    margin-bottom: 40px;
+.solution-button:hover, .solution-button:focus {
+    background-color: #404BBF
 }
 
-.section ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+.benefits {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.section ul li {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.benefits-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD
+}
+
+.team-head {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    width: 264px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.section ul li img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.team-list {
+    background-color: #ffffff;
 }
 
-.section ul li h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.section ul li p {
-    color: #666;
-    font-size: 14px;
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.portfolio-section ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.portfolio-head {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.portfolio-section ul li:hover {
-    transform: translateY(-10px);
-    transition: transform 0.3s ease;
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
-    background-color: #2e2e48;
-    color: white;
-    padding: 30px 40px;
-    text-align: center;
+    background-color: #2e2f42;
 }
 
-.footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.footer p {
-    font-size: 14px;
-}
